@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1000px) {
+    .card3{
+        width: fit-content;
+    }
+    .container{
+        flex-direction: column;
+        display: flex;
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+    .mcard{
+        /* display: block; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mcarleft{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0px 10px 20px;
+
+    }
+    .mcardright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .mcardleft .sl .img1{
+        height: 20px;
+    }
+    .card1,.card2,.card4,.card5,.card6,.card7{
+        display: none;
+    }
+    .card5-m .item9{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: white;
+    }
+    .card7-m .item13 img{
+        height: 30px;
+        width: 30px;
+    }
+    .card7-m{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-right: 20px;
+    }
+    .card7-m .item14{
+        color: white;
+    }
+    .card5-m .item10 .item10-2 img{
+        height: 13px;
+    }
+    .card5-m{
+        display: flex;
+
+    }
+    .card1-m img{
+        /* margin-top: 15px; */
+        height: 30px;
+        padding: 0px 8px;
+    }
+    .card3 .item4 input{
+        width: 85vw;
+    }
+}

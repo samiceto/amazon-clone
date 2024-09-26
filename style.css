@@ -1,0 +1,658 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:  clip;
+    
+}
+.container{
+    padding: 0px 10px;
+    height: 60px;
+    background: #080026;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.container .card1:hover{
+    border: 1px solid white;
+  
+}
+.container .card2:hover{
+    border: 1px solid white;
+    padding: 0px;
+  
+}
+.container .card4:hover{
+    border: 1px solid white;
+    padding: 10px 0px 10px 0px;
+  
+}
+.container .card5:hover{
+    border: 1px solid white;
+    padding: 10px 0px 10px 0px;
+  
+}
+.container .card6:hover{
+    border: 1px solid white;
+    padding: 10px 0px 10px 0px;
+  
+}
+.container .card7:hover{
+    border: 1px solid white;
+    padding: 10px 0px 10px 0px;
+  
+}
+.card1 img{
+    margin-top: 15px;
+    height: 30px;
+    padding: 0px 8px;
+}
+
+.card2 .item1 img{
+    height: 25px;
+    margin-top: 30px;
+    margin-right: px;
+}
+.card2 .item2 p{
+    color: #b7b3b3;
+    font-size: 11px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.card2 .item2 h1{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 11px;
+    line-height: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card2{
+    display: flex;
+}
+.item3 select{
+    height: 35px;
+    width: 70px;
+    border: none;
+    background: #dedcdc;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    
+}
+.card3 .item4 input{
+    width: 45vw;
+    height: 35px;
+    border: none;
+    padding: 0px 10px;
+    position: relative;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.inputimg{
+    background-image: url('icon/search.png') ;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position: right;
+    box-sizing: border-box;
+    
+}
+
+.card3 .item5{
+    display: flex;
+    height: 44px;
+    width: 40px;
+    background: #e8a933;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3{
+    display: flex;
+}
+.card4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.card4 .item6 img{
+    height: 10px;
+}
+.card4 .item7{
+    height: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 2px;
+}
+.card4 .item8 img{
+    height: 13px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.card5 .item9{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.card5 .item10{
+    display: flex;
+}
+.card5 .item10 .item10-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.card5 .item10 .item10-2 img{
+    height: 13px;
+}
+.card6{
+    color: white;
+}
+.card7 .item13 img{
+    height: 30px;
+    width: 30px;
+}
+.card7{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 20px;
+}
+.card7 .item14{
+    color: white;
+}
+
+.slide{
+    background: #122934;
+    height: 35px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding-left:  10px;
+}
+.slide .sl .img1{
+    height: 20px;
+}
+.mcard{
+   display: none;
+   /* display: flex; */
+}
+.mcard .sl .img1{
+    height: 20px;
+}
+.slide .sl .img2{
+    height: 10px;
+}
+.slide .sl{
+    display: flex;
+    align-items: center;
+}
+.slide .sl p{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-weight: bold; */
+    font-size: 12px;
+}
+.slide .sl:hover{
+    border: 1px solid white;
+    padding: 8px;
+}
+
+
+
+main{
+    min-height: 100vh;
+    background: #e6e4e4;
+    box-sizing: border-box;
+   
+    
+}
+
+.bodycontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('right.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    box-sizing: border-box;
+    
+}
+.spacer{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.left  {
+    height: 40vh;
+    width: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    align-items: center;
+    /* float: left; */
+    transition-property: border;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+
+}
+.left:hover{
+    border: 2px solid rgb(4, 114, 131);
+    border-radius: 5px;
+
+}
+.right {
+    height: 40vh;
+    width: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    /* float: right; */
+    transition-property: border;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+.right:hover{
+    border: 2px solid rgb(4, 114, 131);
+    border-radius: 5px;
+}
+.left img{
+    height: 50px;
+}
+.right img{
+    height: 50px;
+    rotate: 180deg;
+}
+.bodycards{
+    width: 95vw;
+    /* height: 350px; */
+    /* background: #c6c3c3; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.bodycontainer .bodycards .bodycard1{
+    width: 290px;
+    height: 350px;
+    background: #ffffff;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.bodycard1 img{
+    width: 260px;
+    height: 250px;
+    margin:10px 0px;
+}
+.bodycard1 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+.bodycard1 a{
+    text-decoration: none;
+    color: rgb(139, 12, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+.img4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+.bodycard2 .img4 img{
+    width: 120px;
+    height: 110px;
+
+
+}
+.bodycard2 .img4 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+
+}
+.bodycard2 a{
+    text-decoration: none;
+    color: rgb(139, 12, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+.bodycard2 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+.type{
+    margin: 0px 20px 10px 0px;
+
+}
+.bodycontainer .bodycards .bodycard2{
+    width: 290px;
+    height: 350px;
+    background: #ffffff;
+    /* padding: 20px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+.slidewhite{
+    height: 35px;
+    width: 95vw;
+    background: rgb(236, 234, 234);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+    
+}
+.slidewhite a{
+    text-decoration: none;
+    padding-left: 30px;
+}
+.slidewhite a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+.bodycards2{
+    width: 95vw;
+    height: 280px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 10px;
+    box-sizing: border-box;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.cot{
+    display: flex;
+}
+.costimg img{
+    height: 170px;
+}
+.cot h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.cot a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.cot a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.costimg{
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: auto; */
+    overflow: hidden;
+    transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    
+}
+.costimg:hover{
+    overflow-x: auto;
+    /* transition: overflow-x; */
+    /* border: 2px solid red; */
+    
+}
+
+.footer{
+    height: 70px;
+    background: #080026;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.containerf1{
+    display: flex;
+    gap: 15px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.contanierf2{
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.footer .itm4 img{
+    height: 20px;
+    margin-top: 0px;
+    /* align-items: center; */
+    justify-self: start;
+}
+.itm4{
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.bootemtop{
+    height: 500px;
+    background-color:  #203643;
+    box-sizing: border-box;
+
+}
+.backto{
+    height: 50px;
+    background: #315366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    box-sizing: border-box;
+}
+.backto:hover{
+    background: #4a687c;
+}
+
+.typing{
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 11px;
+    gap: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.typing .a .b .c .d{
+    display: flex;
+    flex-direction: column;
+
+    /* color: white; */
+    
+
+}
+.typing h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.typing p{
+    font-size: 13px;
+    /* font-weight: bold; */
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.typing p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+
+
+.bottomlogo{
+    height: 90px;
+    border-top: 0.2px solid rgb(147, 144, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.bottomlogo img{
+    height: 20px;
+    margin-right: 30px;
+}
+.global{
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    height: 25px;
+    width: 120px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+}
+.global img{
+    height: 12px;
+    margin-left: 10px;
+}
+.dollar{
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    height: 25px;
+    width: 120px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+
+}
+.flag{
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    height: 25px;
+    width: 125px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    padding: 0px 0px;
+
+}
+.flag img{
+    height: 10px;
+}
+
+
+
+.slidebottom{
+    min-height: 330px;
+    background: #080026;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.slidebottom .ro a{
+    text-decoration: none;
+    color: rgb(216, 215, 215);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.slidebottom .ro a:hover{
+    text-decoration: underline;
+    /* color: white; */
+}
+.slidebottom .ro a p{
+    color:rgb(134, 134, 134);
+    font-size: 11px;
+}
+.slidebottom .ro a h1{
+    font-weight: bold;
+    font-size: 11px;
+}
+.slidebottom .col   .ro{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+img:hover{
+    cursor: pointer;
+
+}
