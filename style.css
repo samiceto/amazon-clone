@@ -226,12 +226,12 @@ main{
     align-items: center;
     background-image: url('right.jpg');
     background-repeat: no-repeat;
-    background-size: 100vw 90vh;
+    background-size: 100vw 90vw;
     box-sizing: border-box;
     
 }
 .spacer{
-    height: 40vh;
+    height: 40vw;
     width: 100vw;
     display: flex;
     justify-content: space-between;

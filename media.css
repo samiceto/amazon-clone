@@ -21,6 +21,33 @@
         margin: 10px 0px 10px 20px;
 
     }
+    .slidewhite{
+        font-size: 2vw;
+    }
+    .item3 select{
+        width: 44px;
+    }
+    .bootemtop{
+        height: fit-content;
+    }
+    .typing{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .footer{
+        height: fit-content;
+    }
+    .containerf1{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .bottomlogo{
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+  
     .mcardright{
         display: flex;
         align-items: center;
@@ -50,6 +77,15 @@
     .card7-m .item14{
         color: white;
     }
+    .mcard .sl .img1{
+        height: 4vw;
+    }
+    .slide .sl p{
+        font-size: 2vw;
+    }
+    .slide .sl .img1 {
+        height: 5vw;
+      }
     .card5-m .item10 .item10-2 img{
         height: 13px;
     }
@@ -59,7 +95,7 @@
     }
     .card1-m img{
         /* margin-top: 15px; */
-        height: 30px;
+        height: 4vw;
         padding: 0px 8px;
     }
     .card3 .item4 input{
